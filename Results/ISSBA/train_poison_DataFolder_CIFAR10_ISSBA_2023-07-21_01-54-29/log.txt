@@ -1,0 +1,525 @@
+Epoch [1] total loss: 0.15865994413876033, bit acc: 0.8952725046793619
+Epoch [2] total loss: 0.0008020791612134417, bit acc: 0.999855000559489
+Epoch [3] total loss: 0.010480644147408505, bit acc: 0.9998658341407776
+Epoch [4] total loss: 0.0015289698358625173, bit acc: 0.9998925005912781
+Epoch [5] total loss: 0.0009324982780652742, bit acc: 0.9999300007184346
+Epoch [6] total loss: 0.0010373911248830457, bit acc: 0.9998833345413208
+Epoch [7] total loss: 0.0007879961307781439, bit acc: 0.9999108342170715
+Epoch [8] total loss: 0.0006939241412638997, bit acc: 0.9999150008519491
+Epoch [9] total loss: 0.0007315914163443571, bit acc: 0.9999125007947286
+Epoch [10] total loss: 0.0005760130789596587, bit acc: 0.9999408339182536
+Epoch [11] total loss: 0.0006030163563710327, bit acc: 0.9999400004386901
+Epoch [12] total loss: 0.000554684656082342, bit acc: 0.9999208342234294
+Epoch [13] total loss: 0.0006034539192449302, bit acc: 0.9999316673278809
+Epoch [14] total loss: 0.0003502650482269625, bit acc: 0.9999683337211609
+Epoch [15] total loss: 0.0004839507270681982, bit acc: 0.9999375007947287
+Epoch [16] total loss: 0.0004689560979837552, bit acc: 0.9999416672070821
+Epoch [17] total loss: 0.00038016036298746863, bit acc: 0.9999591671307881
+Epoch [18] total loss: 0.00040265744367691997, bit acc: 0.999949167283376
+Epoch [19] total loss: 0.00045792355893645436, bit acc: 0.9999383339564005
+Epoch [20] total loss: 0.0003896367657231167, bit acc: 0.9999500005722046
+Total train samples: 50000
+Total test samples: 10000
+Batch size: 128
+iteration every epoch: 390
+Initial learning rate: 0.1
+[2023-07-21_02:17:44] Train [0] Loss: 1.9854
+==========Test result on benign test dataset==========
+[2023-07-21_02:17:50] Top-1 correct / Total: 4060/10000, Top-1 accuracy: 0.406, Top-5 correct / Total: 8789/10000, Top-5 accuracy: 0.8789 time: 86.27911877632141
+==========Test result on poisoned test dataset==========
+[2023-07-21_02:17:56] Top-1 correct / Total: 2167/10000, Top-1 accuracy: 0.2167, Top-5 correct / Total: 8608/10000, Top-5 accuracy: 0.8608, time: 91.98930287361145
+[2023-07-21_02:19:16] Train [1] Loss: 1.5443
+==========Test result on benign test dataset==========
+[2023-07-21_02:19:22] Top-1 correct / Total: 5469/10000, Top-1 accuracy: 0.5469, Top-5 correct / Total: 9339/10000, Top-5 accuracy: 0.9339 time: 177.4448857307434
+==========Test result on poisoned test dataset==========
+[2023-07-21_02:19:27] Top-1 correct / Total: 1136/10000, Top-1 accuracy: 0.1136, Top-5 correct / Total: 7905/10000, Top-5 accuracy: 0.7905, time: 183.13043999671936
+[2023-07-21_02:20:47] Train [2] Loss: 1.3279
+==========Test result on benign test dataset==========
+[2023-07-21_02:20:53] Top-1 correct / Total: 5552/10000, Top-1 accuracy: 0.5552, Top-5 correct / Total: 9442/10000, Top-5 accuracy: 0.9442 time: 269.01823115348816
+==========Test result on poisoned test dataset==========
+[2023-07-21_02:20:59] Top-1 correct / Total: 1336/10000, Top-1 accuracy: 0.1336, Top-5 correct / Total: 9183/10000, Top-5 accuracy: 0.9183, time: 274.73472929000854
+[2023-07-21_02:22:19] Train [3] Loss: 1.1622
+==========Test result on benign test dataset==========
+[2023-07-21_02:22:25] Top-1 correct / Total: 6569/10000, Top-1 accuracy: 0.6569, Top-5 correct / Total: 9567/10000, Top-5 accuracy: 0.9567 time: 360.77655959129333
+==========Test result on poisoned test dataset==========
+[2023-07-21_02:22:31] Top-1 correct / Total: 1027/10000, Top-1 accuracy: 0.1027, Top-5 correct / Total: 9321/10000, Top-5 accuracy: 0.9321, time: 366.5798909664154
+[2023-07-21_02:23:51] Train [4] Loss: 1.0374
+==========Test result on benign test dataset==========
+[2023-07-21_02:23:57] Top-1 correct / Total: 6792/10000, Top-1 accuracy: 0.6792, Top-5 correct / Total: 9565/10000, Top-5 accuracy: 0.9565 time: 452.7394287586212
+==========Test result on poisoned test dataset==========
+[2023-07-21_02:24:03] Top-1 correct / Total: 1042/10000, Top-1 accuracy: 0.1042, Top-5 correct / Total: 9599/10000, Top-5 accuracy: 0.9599, time: 458.4689869880676
+[2023-07-21_02:25:23] Train [5] Loss: 0.9312
+==========Test result on benign test dataset==========
+[2023-07-21_02:25:29] Top-1 correct / Total: 7037/10000, Top-1 accuracy: 0.7037, Top-5 correct / Total: 9738/10000, Top-5 accuracy: 0.9738 time: 544.6411457061768
+==========Test result on poisoned test dataset==========
+[2023-07-21_02:25:34] Top-1 correct / Total: 803/10000, Top-1 accuracy: 0.0803, Top-5 correct / Total: 9078/10000, Top-5 accuracy: 0.9078, time: 550.3404667377472
+[2023-07-21_02:26:55] Train [6] Loss: 0.8459
+==========Test result on benign test dataset==========
+[2023-07-21_02:27:01] Top-1 correct / Total: 7462/10000, Top-1 accuracy: 0.7462, Top-5 correct / Total: 9778/10000, Top-5 accuracy: 0.9778 time: 636.5854289531708
+==========Test result on poisoned test dataset==========
+[2023-07-21_02:27:06] Top-1 correct / Total: 1227/10000, Top-1 accuracy: 0.1227, Top-5 correct / Total: 9803/10000, Top-5 accuracy: 0.9803, time: 642.3827707767487
+[2023-07-21_02:28:27] Train [7] Loss: 0.7943
+==========Test result on benign test dataset==========
+[2023-07-21_02:28:33] Top-1 correct / Total: 7833/10000, Top-1 accuracy: 0.7833, Top-5 correct / Total: 9827/10000, Top-5 accuracy: 0.9827 time: 728.7151868343353
+==========Test result on poisoned test dataset==========
+[2023-07-21_02:28:39] Top-1 correct / Total: 1073/10000, Top-1 accuracy: 0.1073, Top-5 correct / Total: 9770/10000, Top-5 accuracy: 0.977, time: 734.4447169303894
+[2023-07-21_02:29:59] Train [8] Loss: 0.7644
+==========Test result on benign test dataset==========
+[2023-07-21_02:30:05] Top-1 correct / Total: 7333/10000, Top-1 accuracy: 0.7333, Top-5 correct / Total: 9684/10000, Top-5 accuracy: 0.9684 time: 820.9794321060181
+==========Test result on poisoned test dataset==========
+[2023-07-21_02:30:11] Top-1 correct / Total: 1049/10000, Top-1 accuracy: 0.1049, Top-5 correct / Total: 9914/10000, Top-5 accuracy: 0.9914, time: 826.8166401386261
+[2023-07-21_02:31:32] Train [9] Loss: 0.7360
+==========Test result on benign test dataset==========
+[2023-07-21_02:31:37] Top-1 correct / Total: 7399/10000, Top-1 accuracy: 0.7399, Top-5 correct / Total: 9741/10000, Top-5 accuracy: 0.9741 time: 913.1761260032654
+==========Test result on poisoned test dataset==========
+[2023-07-21_02:31:43] Top-1 correct / Total: 898/10000, Top-1 accuracy: 0.0898, Top-5 correct / Total: 9957/10000, Top-5 accuracy: 0.9957, time: 918.9237213134766
+[2023-07-21_02:33:04] Train [10] Loss: 0.7144
+==========Test result on benign test dataset==========
+[2023-07-21_02:33:09] Top-1 correct / Total: 6977/10000, Top-1 accuracy: 0.6977, Top-5 correct / Total: 9683/10000, Top-5 accuracy: 0.9683 time: 1005.2179427146912
+==========Test result on poisoned test dataset==========
+[2023-07-21_02:33:15] Top-1 correct / Total: 764/10000, Top-1 accuracy: 0.0764, Top-5 correct / Total: 9819/10000, Top-5 accuracy: 0.9819, time: 1010.9625463485718
+[2023-07-21_02:34:36] Train [11] Loss: 0.6951
+==========Test result on benign test dataset==========
+[2023-07-21_02:34:42] Top-1 correct / Total: 7959/10000, Top-1 accuracy: 0.7959, Top-5 correct / Total: 9832/10000, Top-5 accuracy: 0.9832 time: 1097.4994747638702
+==========Test result on poisoned test dataset==========
+[2023-07-21_02:34:47] Top-1 correct / Total: 1093/10000, Top-1 accuracy: 0.1093, Top-5 correct / Total: 9778/10000, Top-5 accuracy: 0.9778, time: 1103.248178243637
+[2023-07-21_02:36:08] Train [12] Loss: 0.6783
+==========Test result on benign test dataset==========
+[2023-07-21_02:36:14] Top-1 correct / Total: 8079/10000, Top-1 accuracy: 0.8079, Top-5 correct / Total: 9843/10000, Top-5 accuracy: 0.9843 time: 1189.93900680542
+==========Test result on poisoned test dataset==========
+[2023-07-21_02:36:20] Top-1 correct / Total: 1024/10000, Top-1 accuracy: 0.1024, Top-5 correct / Total: 9636/10000, Top-5 accuracy: 0.9636, time: 1195.7346632480621
+[2023-07-21_02:37:41] Train [13] Loss: 0.6725
+==========Test result on benign test dataset==========
+[2023-07-21_02:37:46] Top-1 correct / Total: 7937/10000, Top-1 accuracy: 0.7937, Top-5 correct / Total: 9817/10000, Top-5 accuracy: 0.9817 time: 1282.0824723243713
+==========Test result on poisoned test dataset==========
+[2023-07-21_02:37:52] Top-1 correct / Total: 1179/10000, Top-1 accuracy: 0.1179, Top-5 correct / Total: 9918/10000, Top-5 accuracy: 0.9918, time: 1287.8360188007355
+[2023-07-21_02:39:13] Train [14] Loss: 0.6574
+==========Test result on benign test dataset==========
+[2023-07-21_02:39:18] Top-1 correct / Total: 8216/10000, Top-1 accuracy: 0.8216, Top-5 correct / Total: 9851/10000, Top-5 accuracy: 0.9851 time: 1374.3802559375763
+==========Test result on poisoned test dataset==========
+[2023-07-21_02:39:24] Top-1 correct / Total: 1194/10000, Top-1 accuracy: 0.1194, Top-5 correct / Total: 9768/10000, Top-5 accuracy: 0.9768, time: 1380.1383111476898
+[2023-07-21_02:40:45] Train [15] Loss: 0.6443
+==========Test result on benign test dataset==========
+[2023-07-21_02:40:51] Top-1 correct / Total: 7909/10000, Top-1 accuracy: 0.7909, Top-5 correct / Total: 9817/10000, Top-5 accuracy: 0.9817 time: 1466.4469044208527
+==========Test result on poisoned test dataset==========
+[2023-07-21_02:40:56] Top-1 correct / Total: 1375/10000, Top-1 accuracy: 0.1375, Top-5 correct / Total: 9941/10000, Top-5 accuracy: 0.9941, time: 1472.2356700897217
+[2023-07-21_02:42:17] Train [16] Loss: 0.6304
+==========Test result on benign test dataset==========
+[2023-07-21_02:42:23] Top-1 correct / Total: 8270/10000, Top-1 accuracy: 0.827, Top-5 correct / Total: 9868/10000, Top-5 accuracy: 0.9868 time: 1558.6446733474731
+==========Test result on poisoned test dataset==========
+[2023-07-21_02:42:29] Top-1 correct / Total: 1122/10000, Top-1 accuracy: 0.1122, Top-5 correct / Total: 9778/10000, Top-5 accuracy: 0.9778, time: 1564.4345552921295
+[2023-07-21_02:43:49] Train [17] Loss: 0.6319
+==========Test result on benign test dataset==========
+[2023-07-21_02:43:55] Top-1 correct / Total: 8300/10000, Top-1 accuracy: 0.83, Top-5 correct / Total: 9826/10000, Top-5 accuracy: 0.9826 time: 1650.86896109581
+==========Test result on poisoned test dataset==========
+[2023-07-21_02:44:01] Top-1 correct / Total: 1023/10000, Top-1 accuracy: 0.1023, Top-5 correct / Total: 9967/10000, Top-5 accuracy: 0.9967, time: 1656.6615591049194
+[2023-07-21_02:45:22] Train [18] Loss: 0.5770
+==========Test result on benign test dataset==========
+[2023-07-21_02:45:28] Top-1 correct / Total: 8078/10000, Top-1 accuracy: 0.8078, Top-5 correct / Total: 9877/10000, Top-5 accuracy: 0.9877 time: 1743.4535670280457
+==========Test result on poisoned test dataset==========
+[2023-07-21_02:45:33] Top-1 correct / Total: 9959/10000, Top-1 accuracy: 0.9959, Top-5 correct / Total: 10000/10000, Top-5 accuracy: 1.0, time: 1749.2730190753937
+[2023-07-21_02:46:54] Train [19] Loss: 0.4599
+==========Test result on benign test dataset==========
+[2023-07-21_02:47:00] Top-1 correct / Total: 8290/10000, Top-1 accuracy: 0.829, Top-5 correct / Total: 9918/10000, Top-5 accuracy: 0.9918 time: 1835.6520552635193
+==========Test result on poisoned test dataset==========
+[2023-07-21_02:47:06] Top-1 correct / Total: 9517/10000, Top-1 accuracy: 0.9517, Top-5 correct / Total: 9987/10000, Top-5 accuracy: 0.9987, time: 1841.3927669525146
+[2023-07-21_02:48:26] Train [20] Loss: 0.4518
+==========Test result on benign test dataset==========
+[2023-07-21_02:48:32] Top-1 correct / Total: 8376/10000, Top-1 accuracy: 0.8376, Top-5 correct / Total: 9899/10000, Top-5 accuracy: 0.9899 time: 1927.9331545829773
+==========Test result on poisoned test dataset==========
+[2023-07-21_02:48:38] Top-1 correct / Total: 9855/10000, Top-1 accuracy: 0.9855, Top-5 correct / Total: 9998/10000, Top-5 accuracy: 0.9998, time: 1933.8694734573364
+[2023-07-21_02:49:59] Train [21] Loss: 0.4428
+==========Test result on benign test dataset==========
+[2023-07-21_02:50:05] Top-1 correct / Total: 8281/10000, Top-1 accuracy: 0.8281, Top-5 correct / Total: 9922/10000, Top-5 accuracy: 0.9922 time: 2020.792788028717
+==========Test result on poisoned test dataset==========
+[2023-07-21_02:50:11] Top-1 correct / Total: 9902/10000, Top-1 accuracy: 0.9902, Top-5 correct / Total: 9999/10000, Top-5 accuracy: 0.9999, time: 2026.5842914581299
+[2023-07-21_02:51:32] Train [22] Loss: 0.4351
+==========Test result on benign test dataset==========
+[2023-07-21_02:51:37] Top-1 correct / Total: 8378/10000, Top-1 accuracy: 0.8378, Top-5 correct / Total: 9928/10000, Top-5 accuracy: 0.9928 time: 2113.065119743347
+==========Test result on poisoned test dataset==========
+[2023-07-21_02:51:43] Top-1 correct / Total: 9985/10000, Top-1 accuracy: 0.9985, Top-5 correct / Total: 10000/10000, Top-5 accuracy: 1.0, time: 2118.8556666374207
+[2023-07-21_02:53:04] Train [23] Loss: 0.4366
+==========Test result on benign test dataset==========
+[2023-07-21_02:53:09] Top-1 correct / Total: 7986/10000, Top-1 accuracy: 0.7986, Top-5 correct / Total: 9872/10000, Top-5 accuracy: 0.9872 time: 2205.208464860916
+==========Test result on poisoned test dataset==========
+[2023-07-21_02:53:15] Top-1 correct / Total: 9990/10000, Top-1 accuracy: 0.999, Top-5 correct / Total: 10000/10000, Top-5 accuracy: 1.0, time: 2210.9396760463715
+[2023-07-21_02:54:36] Train [24] Loss: 0.4303
+==========Test result on benign test dataset==========
+[2023-07-21_02:54:41] Top-1 correct / Total: 8384/10000, Top-1 accuracy: 0.8384, Top-5 correct / Total: 9928/10000, Top-5 accuracy: 0.9928 time: 2297.199464082718
+==========Test result on poisoned test dataset==========
+[2023-07-21_02:54:47] Top-1 correct / Total: 8937/10000, Top-1 accuracy: 0.8937, Top-5 correct / Total: 9947/10000, Top-5 accuracy: 0.9947, time: 2302.9628739356995
+[2023-07-21_02:56:08] Train [25] Loss: 0.4317
+==========Test result on benign test dataset==========
+[2023-07-21_02:56:13] Top-1 correct / Total: 7882/10000, Top-1 accuracy: 0.7882, Top-5 correct / Total: 9879/10000, Top-5 accuracy: 0.9879 time: 2389.3849401474
+==========Test result on poisoned test dataset==========
+[2023-07-21_02:56:19] Top-1 correct / Total: 5833/10000, Top-1 accuracy: 0.5833, Top-5 correct / Total: 9656/10000, Top-5 accuracy: 0.9656, time: 2395.1454317569733
+[2023-07-21_02:57:40] Train [26] Loss: 0.4231
+==========Test result on benign test dataset==========
+[2023-07-21_02:57:46] Top-1 correct / Total: 7945/10000, Top-1 accuracy: 0.7945, Top-5 correct / Total: 9900/10000, Top-5 accuracy: 0.99 time: 2481.6447072029114
+==========Test result on poisoned test dataset==========
+[2023-07-21_02:57:51] Top-1 correct / Total: 10000/10000, Top-1 accuracy: 1.0, Top-5 correct / Total: 10000/10000, Top-5 accuracy: 1.0, time: 2487.375299692154
+[2023-07-21_02:59:12] Train [27] Loss: 0.4156
+==========Test result on benign test dataset==========
+[2023-07-21_02:59:18] Top-1 correct / Total: 7705/10000, Top-1 accuracy: 0.7705, Top-5 correct / Total: 9849/10000, Top-5 accuracy: 0.9849 time: 2573.5734448432922
+==========Test result on poisoned test dataset==========
+[2023-07-21_02:59:24] Top-1 correct / Total: 9287/10000, Top-1 accuracy: 0.9287, Top-5 correct / Total: 9953/10000, Top-5 accuracy: 0.9953, time: 2579.432569503784
+[2023-07-21_03:00:44] Train [28] Loss: 0.4087
+==========Test result on benign test dataset==========
+[2023-07-21_03:00:50] Top-1 correct / Total: 8072/10000, Top-1 accuracy: 0.8072, Top-5 correct / Total: 9861/10000, Top-5 accuracy: 0.9861 time: 2665.8029906749725
+==========Test result on poisoned test dataset==========
+[2023-07-21_03:00:56] Top-1 correct / Total: 10000/10000, Top-1 accuracy: 1.0, Top-5 correct / Total: 10000/10000, Top-5 accuracy: 1.0, time: 2671.565000295639
+[2023-07-21_03:02:16] Train [29] Loss: 0.4169
+==========Test result on benign test dataset==========
+[2023-07-21_03:02:22] Top-1 correct / Total: 7939/10000, Top-1 accuracy: 0.7939, Top-5 correct / Total: 9845/10000, Top-5 accuracy: 0.9845 time: 2757.997742176056
+==========Test result on poisoned test dataset==========
+[2023-07-21_03:02:28] Top-1 correct / Total: 9887/10000, Top-1 accuracy: 0.9887, Top-5 correct / Total: 10000/10000, Top-5 accuracy: 1.0, time: 2763.730792760849
+[2023-07-21_03:03:49] Train [30] Loss: 0.4084
+==========Test result on benign test dataset==========
+[2023-07-21_03:03:54] Top-1 correct / Total: 7975/10000, Top-1 accuracy: 0.7975, Top-5 correct / Total: 9866/10000, Top-5 accuracy: 0.9866 time: 2850.2014169692993
+==========Test result on poisoned test dataset==========
+[2023-07-21_03:04:00] Top-1 correct / Total: 10000/10000, Top-1 accuracy: 1.0, Top-5 correct / Total: 10000/10000, Top-5 accuracy: 1.0, time: 2855.9345910549164
+[2023-07-21_03:05:21] Train [31] Loss: 0.4045
+==========Test result on benign test dataset==========
+[2023-07-21_03:05:26] Top-1 correct / Total: 7977/10000, Top-1 accuracy: 0.7977, Top-5 correct / Total: 9883/10000, Top-5 accuracy: 0.9883 time: 2942.317640066147
+==========Test result on poisoned test dataset==========
+[2023-07-21_03:05:32] Top-1 correct / Total: 7667/10000, Top-1 accuracy: 0.7667, Top-5 correct / Total: 9551/10000, Top-5 accuracy: 0.9551, time: 2948.1051864624023
+[2023-07-21_03:06:53] Train [32] Loss: 0.4044
+==========Test result on benign test dataset==========
+[2023-07-21_03:06:58] Top-1 correct / Total: 7899/10000, Top-1 accuracy: 0.7899, Top-5 correct / Total: 9879/10000, Top-5 accuracy: 0.9879 time: 3034.3433368206024
+==========Test result on poisoned test dataset==========
+[2023-07-21_03:07:04] Top-1 correct / Total: 9999/10000, Top-1 accuracy: 0.9999, Top-5 correct / Total: 10000/10000, Top-5 accuracy: 1.0, time: 3040.1113545894623
+[2023-07-21_03:08:25] Train [33] Loss: 0.4023
+==========Test result on benign test dataset==========
+[2023-07-21_03:08:30] Top-1 correct / Total: 7868/10000, Top-1 accuracy: 0.7868, Top-5 correct / Total: 9893/10000, Top-5 accuracy: 0.9893 time: 3126.2816298007965
+==========Test result on poisoned test dataset==========
+[2023-07-21_03:08:36] Top-1 correct / Total: 10000/10000, Top-1 accuracy: 1.0, Top-5 correct / Total: 10000/10000, Top-5 accuracy: 1.0, time: 3132.0661103725433
+[2023-07-21_03:09:57] Train [34] Loss: 0.3988
+==========Test result on benign test dataset==========
+[2023-07-21_03:10:02] Top-1 correct / Total: 8249/10000, Top-1 accuracy: 0.8249, Top-5 correct / Total: 9941/10000, Top-5 accuracy: 0.9941 time: 3218.2762310504913
+==========Test result on poisoned test dataset==========
+[2023-07-21_03:10:08] Top-1 correct / Total: 9792/10000, Top-1 accuracy: 0.9792, Top-5 correct / Total: 9997/10000, Top-5 accuracy: 0.9997, time: 3224.0200612545013
+[2023-07-21_03:11:29] Train [35] Loss: 0.4039
+==========Test result on benign test dataset==========
+[2023-07-21_03:11:35] Top-1 correct / Total: 8344/10000, Top-1 accuracy: 0.8344, Top-5 correct / Total: 9937/10000, Top-5 accuracy: 0.9937 time: 3310.5042502880096
+==========Test result on poisoned test dataset==========
+[2023-07-21_03:11:40] Top-1 correct / Total: 9980/10000, Top-1 accuracy: 0.998, Top-5 correct / Total: 10000/10000, Top-5 accuracy: 1.0, time: 3316.275799036026
+[2023-07-21_03:13:01] Train [36] Loss: 0.3915
+==========Test result on benign test dataset==========
+[2023-07-21_03:13:07] Top-1 correct / Total: 8332/10000, Top-1 accuracy: 0.8332, Top-5 correct / Total: 9927/10000, Top-5 accuracy: 0.9927 time: 3402.515460252762
+==========Test result on poisoned test dataset==========
+[2023-07-21_03:13:12] Top-1 correct / Total: 9334/10000, Top-1 accuracy: 0.9334, Top-5 correct / Total: 9975/10000, Top-5 accuracy: 0.9975, time: 3408.3598442077637
+[2023-07-21_03:14:33] Train [37] Loss: 0.3932
+==========Test result on benign test dataset==========
+[2023-07-21_03:14:39] Top-1 correct / Total: 8469/10000, Top-1 accuracy: 0.8469, Top-5 correct / Total: 9930/10000, Top-5 accuracy: 0.993 time: 3494.703540086746
+==========Test result on poisoned test dataset==========
+[2023-07-21_03:14:45] Top-1 correct / Total: 9977/10000, Top-1 accuracy: 0.9977, Top-5 correct / Total: 10000/10000, Top-5 accuracy: 1.0, time: 3500.497899532318
+[2023-07-21_03:16:05] Train [38] Loss: 0.3937
+==========Test result on benign test dataset==========
+[2023-07-21_03:16:11] Top-1 correct / Total: 8443/10000, Top-1 accuracy: 0.8443, Top-5 correct / Total: 9939/10000, Top-5 accuracy: 0.9939 time: 3586.890020608902
+==========Test result on poisoned test dataset==========
+[2023-07-21_03:16:17] Top-1 correct / Total: 10000/10000, Top-1 accuracy: 1.0, Top-5 correct / Total: 10000/10000, Top-5 accuracy: 1.0, time: 3592.6848759651184
+[2023-07-21_03:17:38] Train [39] Loss: 0.3928
+==========Test result on benign test dataset==========
+[2023-07-21_03:17:43] Top-1 correct / Total: 8168/10000, Top-1 accuracy: 0.8168, Top-5 correct / Total: 9910/10000, Top-5 accuracy: 0.991 time: 3679.3272144794464
+==========Test result on poisoned test dataset==========
+[2023-07-21_03:17:49] Top-1 correct / Total: 9994/10000, Top-1 accuracy: 0.9994, Top-5 correct / Total: 10000/10000, Top-5 accuracy: 1.0, time: 3685.127312898636
+[2023-07-21_03:19:11] Train [40] Loss: 0.3880
+==========Test result on benign test dataset==========
+[2023-07-21_03:19:16] Top-1 correct / Total: 8025/10000, Top-1 accuracy: 0.8025, Top-5 correct / Total: 9887/10000, Top-5 accuracy: 0.9887 time: 3772.1152081489563
+==========Test result on poisoned test dataset==========
+[2023-07-21_03:19:22] Top-1 correct / Total: 9727/10000, Top-1 accuracy: 0.9727, Top-5 correct / Total: 9997/10000, Top-5 accuracy: 0.9997, time: 3777.913862466812
+[2023-07-21_03:20:43] Train [41] Loss: 0.3856
+==========Test result on benign test dataset==========
+[2023-07-21_03:20:48] Top-1 correct / Total: 8377/10000, Top-1 accuracy: 0.8377, Top-5 correct / Total: 9928/10000, Top-5 accuracy: 0.9928 time: 3864.202644586563
+==========Test result on poisoned test dataset==========
+[2023-07-21_03:20:54] Top-1 correct / Total: 10000/10000, Top-1 accuracy: 1.0, Top-5 correct / Total: 10000/10000, Top-5 accuracy: 1.0, time: 3869.98552274704
+[2023-07-21_03:22:15] Train [42] Loss: 0.3865
+==========Test result on benign test dataset==========
+[2023-07-21_03:22:21] Top-1 correct / Total: 7343/10000, Top-1 accuracy: 0.7343, Top-5 correct / Total: 9876/10000, Top-5 accuracy: 0.9876 time: 3956.581619977951
+==========Test result on poisoned test dataset==========
+[2023-07-21_03:22:27] Top-1 correct / Total: 9269/10000, Top-1 accuracy: 0.9269, Top-5 correct / Total: 9956/10000, Top-5 accuracy: 0.9956, time: 3962.7655987739563
+[2023-07-21_03:23:48] Train [43] Loss: 0.3867
+==========Test result on benign test dataset==========
+[2023-07-21_03:23:54] Top-1 correct / Total: 8245/10000, Top-1 accuracy: 0.8245, Top-5 correct / Total: 9932/10000, Top-5 accuracy: 0.9932 time: 4049.5748393535614
+==========Test result on poisoned test dataset==========
+[2023-07-21_03:24:00] Top-1 correct / Total: 9042/10000, Top-1 accuracy: 0.9042, Top-5 correct / Total: 9988/10000, Top-5 accuracy: 0.9988, time: 4055.8740363121033
+[2023-07-21_03:25:21] Train [44] Loss: 0.3834
+==========Test result on benign test dataset==========
+[2023-07-21_03:25:27] Top-1 correct / Total: 8390/10000, Top-1 accuracy: 0.839, Top-5 correct / Total: 9946/10000, Top-5 accuracy: 0.9946 time: 4142.396685838699
+==========Test result on poisoned test dataset==========
+[2023-07-21_03:25:32] Top-1 correct / Total: 9933/10000, Top-1 accuracy: 0.9933, Top-5 correct / Total: 10000/10000, Top-5 accuracy: 1.0, time: 4148.165736913681
+[2023-07-21_03:26:53] Train [45] Loss: 0.3878
+==========Test result on benign test dataset==========
+[2023-07-21_03:26:58] Top-1 correct / Total: 7601/10000, Top-1 accuracy: 0.7601, Top-5 correct / Total: 9885/10000, Top-5 accuracy: 0.9885 time: 4234.334560871124
+==========Test result on poisoned test dataset==========
+[2023-07-21_03:27:04] Top-1 correct / Total: 9991/10000, Top-1 accuracy: 0.9991, Top-5 correct / Total: 10000/10000, Top-5 accuracy: 1.0, time: 4240.099502086639
+[2023-07-21_03:28:25] Train [46] Loss: 0.3901
+==========Test result on benign test dataset==========
+[2023-07-21_03:28:30] Top-1 correct / Total: 7863/10000, Top-1 accuracy: 0.7863, Top-5 correct / Total: 9930/10000, Top-5 accuracy: 0.993 time: 4326.21574473381
+==========Test result on poisoned test dataset==========
+[2023-07-21_03:28:36] Top-1 correct / Total: 9989/10000, Top-1 accuracy: 0.9989, Top-5 correct / Total: 9999/10000, Top-5 accuracy: 0.9999, time: 4331.973560810089
+[2023-07-21_03:29:57] Train [47] Loss: 0.3867
+==========Test result on benign test dataset==========
+[2023-07-21_03:30:02] Top-1 correct / Total: 8112/10000, Top-1 accuracy: 0.8112, Top-5 correct / Total: 9928/10000, Top-5 accuracy: 0.9928 time: 4418.242567062378
+==========Test result on poisoned test dataset==========
+[2023-07-21_03:30:08] Top-1 correct / Total: 9945/10000, Top-1 accuracy: 0.9945, Top-5 correct / Total: 10000/10000, Top-5 accuracy: 1.0, time: 4423.979098320007
+[2023-07-21_03:31:29] Train [48] Loss: 0.3749
+==========Test result on benign test dataset==========
+[2023-07-21_03:31:34] Top-1 correct / Total: 8517/10000, Top-1 accuracy: 0.8517, Top-5 correct / Total: 9946/10000, Top-5 accuracy: 0.9946 time: 4510.093096971512
+==========Test result on poisoned test dataset==========
+[2023-07-21_03:31:40] Top-1 correct / Total: 9973/10000, Top-1 accuracy: 0.9973, Top-5 correct / Total: 10000/10000, Top-5 accuracy: 1.0, time: 4515.897567510605
+[2023-07-21_03:33:01] Train [49] Loss: 0.3823
+==========Test result on benign test dataset==========
+[2023-07-21_03:33:06] Top-1 correct / Total: 7954/10000, Top-1 accuracy: 0.7954, Top-5 correct / Total: 9926/10000, Top-5 accuracy: 0.9926 time: 4602.057343244553
+==========Test result on poisoned test dataset==========
+[2023-07-21_03:33:12] Top-1 correct / Total: 9295/10000, Top-1 accuracy: 0.9295, Top-5 correct / Total: 9994/10000, Top-5 accuracy: 0.9994, time: 4607.774244308472
+[2023-07-21_03:34:32] Train [50] Loss: 0.3718
+==========Test result on benign test dataset==========
+[2023-07-21_03:34:38] Top-1 correct / Total: 7572/10000, Top-1 accuracy: 0.7572, Top-5 correct / Total: 9807/10000, Top-5 accuracy: 0.9807 time: 4693.8985941410065
+==========Test result on poisoned test dataset==========
+[2023-07-21_03:34:44] Top-1 correct / Total: 9749/10000, Top-1 accuracy: 0.9749, Top-5 correct / Total: 9992/10000, Top-5 accuracy: 0.9992, time: 4699.651239156723
+[2023-07-21_03:36:04] Train [51] Loss: 0.3721
+==========Test result on benign test dataset==========
+[2023-07-21_03:36:10] Top-1 correct / Total: 8386/10000, Top-1 accuracy: 0.8386, Top-5 correct / Total: 9941/10000, Top-5 accuracy: 0.9941 time: 4785.736546754837
+==========Test result on poisoned test dataset==========
+[2023-07-21_03:36:16] Top-1 correct / Total: 9905/10000, Top-1 accuracy: 0.9905, Top-5 correct / Total: 9975/10000, Top-5 accuracy: 0.9975, time: 4791.432666778564
+[2023-07-21_03:37:36] Train [52] Loss: 0.3835
+==========Test result on benign test dataset==========
+[2023-07-21_03:37:42] Top-1 correct / Total: 8543/10000, Top-1 accuracy: 0.8543, Top-5 correct / Total: 9948/10000, Top-5 accuracy: 0.9948 time: 4877.591674566269
+==========Test result on poisoned test dataset==========
+[2023-07-21_03:37:48] Top-1 correct / Total: 9983/10000, Top-1 accuracy: 0.9983, Top-5 correct / Total: 10000/10000, Top-5 accuracy: 1.0, time: 4883.837113857269
+[2023-07-21_03:39:09] Train [53] Loss: 0.3850
+==========Test result on benign test dataset==========
+[2023-07-21_03:39:15] Top-1 correct / Total: 7939/10000, Top-1 accuracy: 0.7939, Top-5 correct / Total: 9902/10000, Top-5 accuracy: 0.9902 time: 4970.666588783264
+==========Test result on poisoned test dataset==========
+[2023-07-21_03:39:21] Top-1 correct / Total: 10000/10000, Top-1 accuracy: 1.0, Top-5 correct / Total: 10000/10000, Top-5 accuracy: 1.0, time: 4976.4450776577
+[2023-07-21_03:40:41] Train [54] Loss: 0.3711
+==========Test result on benign test dataset==========
+[2023-07-21_03:40:47] Top-1 correct / Total: 8327/10000, Top-1 accuracy: 0.8327, Top-5 correct / Total: 9911/10000, Top-5 accuracy: 0.9911 time: 5062.836122512817
+==========Test result on poisoned test dataset==========
+[2023-07-21_03:40:53] Top-1 correct / Total: 9988/10000, Top-1 accuracy: 0.9988, Top-5 correct / Total: 10000/10000, Top-5 accuracy: 1.0, time: 5068.581184148788
+[2023-07-21_03:42:14] Train [55] Loss: 0.3681
+==========Test result on benign test dataset==========
+[2023-07-21_03:42:19] Top-1 correct / Total: 8147/10000, Top-1 accuracy: 0.8147, Top-5 correct / Total: 9924/10000, Top-5 accuracy: 0.9924 time: 5155.072736263275
+==========Test result on poisoned test dataset==========
+[2023-07-21_03:42:25] Top-1 correct / Total: 9997/10000, Top-1 accuracy: 0.9997, Top-5 correct / Total: 10000/10000, Top-5 accuracy: 1.0, time: 5160.8948929309845
+[2023-07-21_03:43:46] Train [56] Loss: 0.3775
+==========Test result on benign test dataset==========
+[2023-07-21_03:43:52] Top-1 correct / Total: 8395/10000, Top-1 accuracy: 0.8395, Top-5 correct / Total: 9932/10000, Top-5 accuracy: 0.9932 time: 5247.524380683899
+==========Test result on poisoned test dataset==========
+[2023-07-21_03:43:57] Top-1 correct / Total: 9557/10000, Top-1 accuracy: 0.9557, Top-5 correct / Total: 9973/10000, Top-5 accuracy: 0.9973, time: 5253.303107261658
+[2023-07-21_03:45:18] Train [57] Loss: 0.3749
+==========Test result on benign test dataset==========
+[2023-07-21_03:45:24] Top-1 correct / Total: 8572/10000, Top-1 accuracy: 0.8572, Top-5 correct / Total: 9935/10000, Top-5 accuracy: 0.9935 time: 5339.869522333145
+==========Test result on poisoned test dataset==========
+[2023-07-21_03:45:30] Top-1 correct / Total: 9999/10000, Top-1 accuracy: 0.9999, Top-5 correct / Total: 10000/10000, Top-5 accuracy: 1.0, time: 5345.605783939362
+[2023-07-21_03:46:50] Train [58] Loss: 0.3702
+==========Test result on benign test dataset==========
+[2023-07-21_03:46:56] Top-1 correct / Total: 8486/10000, Top-1 accuracy: 0.8486, Top-5 correct / Total: 9929/10000, Top-5 accuracy: 0.9929 time: 5432.012985944748
+==========Test result on poisoned test dataset==========
+[2023-07-21_03:47:02] Top-1 correct / Total: 10000/10000, Top-1 accuracy: 1.0, Top-5 correct / Total: 10000/10000, Top-5 accuracy: 1.0, time: 5437.789188146591
+[2023-07-21_03:48:23] Train [59] Loss: 0.3723
+==========Test result on benign test dataset==========
+[2023-07-21_03:48:28] Top-1 correct / Total: 8032/10000, Top-1 accuracy: 0.8032, Top-5 correct / Total: 9902/10000, Top-5 accuracy: 0.9902 time: 5524.24559211731
+==========Test result on poisoned test dataset==========
+[2023-07-21_03:48:34] Top-1 correct / Total: 9977/10000, Top-1 accuracy: 0.9977, Top-5 correct / Total: 10000/10000, Top-5 accuracy: 1.0, time: 5529.978696346283
+[2023-07-21_03:49:55] Train [60] Loss: 0.3620
+==========Test result on benign test dataset==========
+[2023-07-21_03:50:01] Top-1 correct / Total: 8515/10000, Top-1 accuracy: 0.8515, Top-5 correct / Total: 9951/10000, Top-5 accuracy: 0.9951 time: 5616.458801746368
+==========Test result on poisoned test dataset==========
+[2023-07-21_03:50:06] Top-1 correct / Total: 10000/10000, Top-1 accuracy: 1.0, Top-5 correct / Total: 10000/10000, Top-5 accuracy: 1.0, time: 5622.243150472641
+[2023-07-21_03:51:27] Train [61] Loss: 0.3686
+==========Test result on benign test dataset==========
+[2023-07-21_03:51:33] Top-1 correct / Total: 8026/10000, Top-1 accuracy: 0.8026, Top-5 correct / Total: 9890/10000, Top-5 accuracy: 0.989 time: 5708.525142908096
+==========Test result on poisoned test dataset==========
+[2023-07-21_03:51:39] Top-1 correct / Total: 9999/10000, Top-1 accuracy: 0.9999, Top-5 correct / Total: 10000/10000, Top-5 accuracy: 1.0, time: 5714.469994068146
+[2023-07-21_03:53:00] Train [62] Loss: 0.3756
+==========Test result on benign test dataset==========
+[2023-07-21_03:53:06] Top-1 correct / Total: 8051/10000, Top-1 accuracy: 0.8051, Top-5 correct / Total: 9859/10000, Top-5 accuracy: 0.9859 time: 5801.528488397598
+==========Test result on poisoned test dataset==========
+[2023-07-21_03:53:12] Top-1 correct / Total: 9859/10000, Top-1 accuracy: 0.9859, Top-5 correct / Total: 9996/10000, Top-5 accuracy: 0.9996, time: 5807.592786073685
+[2023-07-21_03:54:32] Train [63] Loss: 0.3694
+==========Test result on benign test dataset==========
+[2023-07-21_03:54:38] Top-1 correct / Total: 8248/10000, Top-1 accuracy: 0.8248, Top-5 correct / Total: 9925/10000, Top-5 accuracy: 0.9925 time: 5893.954041719437
+==========Test result on poisoned test dataset==========
+[2023-07-21_03:54:44] Top-1 correct / Total: 9997/10000, Top-1 accuracy: 0.9997, Top-5 correct / Total: 9999/10000, Top-5 accuracy: 0.9999, time: 5899.869691610336
+[2023-07-21_03:56:05] Train [64] Loss: 0.3725
+==========Test result on benign test dataset==========
+[2023-07-21_03:56:10] Top-1 correct / Total: 8393/10000, Top-1 accuracy: 0.8393, Top-5 correct / Total: 9906/10000, Top-5 accuracy: 0.9906 time: 5986.122698545456
+==========Test result on poisoned test dataset==========
+[2023-07-21_03:56:16] Top-1 correct / Total: 9999/10000, Top-1 accuracy: 0.9999, Top-5 correct / Total: 10000/10000, Top-5 accuracy: 1.0, time: 5991.88067650795
+[2023-07-21_03:57:37] Train [65] Loss: 0.3670
+==========Test result on benign test dataset==========
+[2023-07-21_03:57:43] Top-1 correct / Total: 8287/10000, Top-1 accuracy: 0.8287, Top-5 correct / Total: 9901/10000, Top-5 accuracy: 0.9901 time: 6078.5655562877655
+==========Test result on poisoned test dataset==========
+[2023-07-21_03:57:48] Top-1 correct / Total: 9951/10000, Top-1 accuracy: 0.9951, Top-5 correct / Total: 9995/10000, Top-5 accuracy: 0.9995, time: 6084.292705774307
+[2023-07-21_03:59:09] Train [66] Loss: 0.3649
+==========Test result on benign test dataset==========
+[2023-07-21_03:59:15] Top-1 correct / Total: 8399/10000, Top-1 accuracy: 0.8399, Top-5 correct / Total: 9953/10000, Top-5 accuracy: 0.9953 time: 6170.617798089981
+==========Test result on poisoned test dataset==========
+[2023-07-21_03:59:21] Top-1 correct / Total: 9992/10000, Top-1 accuracy: 0.9992, Top-5 correct / Total: 10000/10000, Top-5 accuracy: 1.0, time: 6176.3992574214935
+[2023-07-21_04:00:41] Train [67] Loss: 0.3677
+==========Test result on benign test dataset==========
+[2023-07-21_04:00:47] Top-1 correct / Total: 8464/10000, Top-1 accuracy: 0.8464, Top-5 correct / Total: 9921/10000, Top-5 accuracy: 0.9921 time: 6262.580277681351
+==========Test result on poisoned test dataset==========
+[2023-07-21_04:00:52] Top-1 correct / Total: 9830/10000, Top-1 accuracy: 0.983, Top-5 correct / Total: 9997/10000, Top-5 accuracy: 0.9997, time: 6268.366817951202
+[2023-07-21_04:02:13] Train [68] Loss: 0.3606
+==========Test result on benign test dataset==========
+[2023-07-21_04:02:19] Top-1 correct / Total: 8242/10000, Top-1 accuracy: 0.8242, Top-5 correct / Total: 9913/10000, Top-5 accuracy: 0.9913 time: 6354.5069231987
+==========Test result on poisoned test dataset==========
+[2023-07-21_04:02:24] Top-1 correct / Total: 9999/10000, Top-1 accuracy: 0.9999, Top-5 correct / Total: 10000/10000, Top-5 accuracy: 1.0, time: 6360.2739861011505
+[2023-07-21_04:03:45] Train [69] Loss: 0.3670
+==========Test result on benign test dataset==========
+[2023-07-21_04:03:51] Top-1 correct / Total: 8358/10000, Top-1 accuracy: 0.8358, Top-5 correct / Total: 9871/10000, Top-5 accuracy: 0.9871 time: 6446.548817396164
+==========Test result on poisoned test dataset==========
+[2023-07-21_04:03:56] Top-1 correct / Total: 7574/10000, Top-1 accuracy: 0.7574, Top-5 correct / Total: 9902/10000, Top-5 accuracy: 0.9902, time: 6452.287250041962
+[2023-07-21_04:05:17] Train [70] Loss: 0.3603
+==========Test result on benign test dataset==========
+[2023-07-21_04:05:23] Top-1 correct / Total: 8335/10000, Top-1 accuracy: 0.8335, Top-5 correct / Total: 9889/10000, Top-5 accuracy: 0.9889 time: 6538.568166017532
+==========Test result on poisoned test dataset==========
+[2023-07-21_04:05:28] Top-1 correct / Total: 9838/10000, Top-1 accuracy: 0.9838, Top-5 correct / Total: 9997/10000, Top-5 accuracy: 0.9997, time: 6544.383583545685
+[2023-07-21_04:06:49] Train [71] Loss: 0.3673
+==========Test result on benign test dataset==========
+[2023-07-21_04:06:55] Top-1 correct / Total: 8166/10000, Top-1 accuracy: 0.8166, Top-5 correct / Total: 9896/10000, Top-5 accuracy: 0.9896 time: 6630.736647605896
+==========Test result on poisoned test dataset==========
+[2023-07-21_04:07:01] Top-1 correct / Total: 10000/10000, Top-1 accuracy: 1.0, Top-5 correct / Total: 10000/10000, Top-5 accuracy: 1.0, time: 6636.477112293243
+[2023-07-21_04:08:21] Train [72] Loss: 0.3603
+==========Test result on benign test dataset==========
+[2023-07-21_04:08:27] Top-1 correct / Total: 8407/10000, Top-1 accuracy: 0.8407, Top-5 correct / Total: 9931/10000, Top-5 accuracy: 0.9931 time: 6722.768979072571
+==========Test result on poisoned test dataset==========
+[2023-07-21_04:08:33] Top-1 correct / Total: 9982/10000, Top-1 accuracy: 0.9982, Top-5 correct / Total: 10000/10000, Top-5 accuracy: 1.0, time: 6728.530790567398
+[2023-07-21_04:09:54] Train [73] Loss: 0.3594
+==========Test result on benign test dataset==========
+[2023-07-21_04:09:59] Top-1 correct / Total: 7996/10000, Top-1 accuracy: 0.7996, Top-5 correct / Total: 9892/10000, Top-5 accuracy: 0.9892 time: 6815.078743934631
+==========Test result on poisoned test dataset==========
+[2023-07-21_04:10:05] Top-1 correct / Total: 9968/10000, Top-1 accuracy: 0.9968, Top-5 correct / Total: 10000/10000, Top-5 accuracy: 1.0, time: 6820.8495626449585
+[2023-07-21_04:11:26] Train [74] Loss: 0.3636
+==========Test result on benign test dataset==========
+[2023-07-21_04:11:31] Top-1 correct / Total: 8048/10000, Top-1 accuracy: 0.8048, Top-5 correct / Total: 9898/10000, Top-5 accuracy: 0.9898 time: 6907.206477165222
+==========Test result on poisoned test dataset==========
+[2023-07-21_04:11:37] Top-1 correct / Total: 10000/10000, Top-1 accuracy: 1.0, Top-5 correct / Total: 10000/10000, Top-5 accuracy: 1.0, time: 6912.987556219101
+[2023-07-21_04:12:58] Train [75] Loss: 0.3651
+==========Test result on benign test dataset==========
+[2023-07-21_04:13:03] Top-1 correct / Total: 7990/10000, Top-1 accuracy: 0.799, Top-5 correct / Total: 9890/10000, Top-5 accuracy: 0.989 time: 6999.21155166626
+==========Test result on poisoned test dataset==========
+[2023-07-21_04:13:09] Top-1 correct / Total: 10000/10000, Top-1 accuracy: 1.0, Top-5 correct / Total: 10000/10000, Top-5 accuracy: 1.0, time: 7004.979899644852
+[2023-07-21_04:14:30] Train [76] Loss: 0.3616
+==========Test result on benign test dataset==========
+[2023-07-21_04:14:35] Top-1 correct / Total: 8323/10000, Top-1 accuracy: 0.8323, Top-5 correct / Total: 9915/10000, Top-5 accuracy: 0.9915 time: 7091.367949008942
+==========Test result on poisoned test dataset==========
+[2023-07-21_04:14:41] Top-1 correct / Total: 9999/10000, Top-1 accuracy: 0.9999, Top-5 correct / Total: 10000/10000, Top-5 accuracy: 1.0, time: 7097.158803939819
+[2023-07-21_04:16:02] Train [77] Loss: 0.3749
+==========Test result on benign test dataset==========
+[2023-07-21_04:16:08] Top-1 correct / Total: 8084/10000, Top-1 accuracy: 0.8084, Top-5 correct / Total: 9866/10000, Top-5 accuracy: 0.9866 time: 7183.901970148087
+==========Test result on poisoned test dataset==========
+[2023-07-21_04:16:14] Top-1 correct / Total: 9984/10000, Top-1 accuracy: 0.9984, Top-5 correct / Total: 10000/10000, Top-5 accuracy: 1.0, time: 7189.660892248154
+[2023-07-21_04:17:35] Train [78] Loss: 0.3592
+==========Test result on benign test dataset==========
+[2023-07-21_04:17:40] Top-1 correct / Total: 8407/10000, Top-1 accuracy: 0.8407, Top-5 correct / Total: 9946/10000, Top-5 accuracy: 0.9946 time: 7276.256567955017
+==========Test result on poisoned test dataset==========
+[2023-07-21_04:17:46] Top-1 correct / Total: 9943/10000, Top-1 accuracy: 0.9943, Top-5 correct / Total: 9999/10000, Top-5 accuracy: 0.9999, time: 7282.082660198212
+[2023-07-21_04:19:07] Train [79] Loss: 0.3615
+==========Test result on benign test dataset==========
+[2023-07-21_04:19:13] Top-1 correct / Total: 7508/10000, Top-1 accuracy: 0.7508, Top-5 correct / Total: 9809/10000, Top-5 accuracy: 0.9809 time: 7368.588960886002
+==========Test result on poisoned test dataset==========
+[2023-07-21_04:19:18] Top-1 correct / Total: 10000/10000, Top-1 accuracy: 1.0, Top-5 correct / Total: 10000/10000, Top-5 accuracy: 1.0, time: 7374.363597393036
+[2023-07-21_04:20:39] Train [80] Loss: 0.3633
+==========Test result on benign test dataset==========
+[2023-07-21_04:20:45] Top-1 correct / Total: 8382/10000, Top-1 accuracy: 0.8382, Top-5 correct / Total: 9905/10000, Top-5 accuracy: 0.9905 time: 7460.959616661072
+==========Test result on poisoned test dataset==========
+[2023-07-21_04:20:51] Top-1 correct / Total: 9958/10000, Top-1 accuracy: 0.9958, Top-5 correct / Total: 10000/10000, Top-5 accuracy: 1.0, time: 7466.7326855659485
+[2023-07-21_04:22:12] Train [81] Loss: 0.3660
+==========Test result on benign test dataset==========
+[2023-07-21_04:22:17] Top-1 correct / Total: 7928/10000, Top-1 accuracy: 0.7928, Top-5 correct / Total: 9929/10000, Top-5 accuracy: 0.9929 time: 7553.3435072898865
+==========Test result on poisoned test dataset==========
+[2023-07-21_04:22:23] Top-1 correct / Total: 9999/10000, Top-1 accuracy: 0.9999, Top-5 correct / Total: 10000/10000, Top-5 accuracy: 1.0, time: 7559.11120724678
+[2023-07-21_04:23:44] Train [82] Loss: 0.3604
+==========Test result on benign test dataset==========
+[2023-07-21_04:23:50] Top-1 correct / Total: 8417/10000, Top-1 accuracy: 0.8417, Top-5 correct / Total: 9928/10000, Top-5 accuracy: 0.9928 time: 7645.6144478321075
+==========Test result on poisoned test dataset==========
+[2023-07-21_04:23:56] Top-1 correct / Total: 10000/10000, Top-1 accuracy: 1.0, Top-5 correct / Total: 10000/10000, Top-5 accuracy: 1.0, time: 7651.4409782886505
+[2023-07-21_04:25:16] Train [83] Loss: 0.3636
+==========Test result on benign test dataset==========
+[2023-07-21_04:25:22] Top-1 correct / Total: 8315/10000, Top-1 accuracy: 0.8315, Top-5 correct / Total: 9881/10000, Top-5 accuracy: 0.9881 time: 7738.030211210251
+==========Test result on poisoned test dataset==========
+[2023-07-21_04:25:28] Top-1 correct / Total: 9481/10000, Top-1 accuracy: 0.9481, Top-5 correct / Total: 9989/10000, Top-5 accuracy: 0.9989, time: 7743.804938554764
+[2023-07-21_04:26:49] Train [84] Loss: 0.3548
+==========Test result on benign test dataset==========
+[2023-07-21_04:26:55] Top-1 correct / Total: 8343/10000, Top-1 accuracy: 0.8343, Top-5 correct / Total: 9875/10000, Top-5 accuracy: 0.9875 time: 7830.4399766922
+==========Test result on poisoned test dataset==========
+[2023-07-21_04:27:00] Top-1 correct / Total: 9961/10000, Top-1 accuracy: 0.9961, Top-5 correct / Total: 10000/10000, Top-5 accuracy: 1.0, time: 7836.193207025528
+[2023-07-21_04:28:21] Train [85] Loss: 0.3570
+==========Test result on benign test dataset==========
+[2023-07-21_04:28:27] Top-1 correct / Total: 8620/10000, Top-1 accuracy: 0.862, Top-5 correct / Total: 9926/10000, Top-5 accuracy: 0.9926 time: 7922.599985122681
+==========Test result on poisoned test dataset==========
+[2023-07-21_04:28:33] Top-1 correct / Total: 8988/10000, Top-1 accuracy: 0.8988, Top-5 correct / Total: 9944/10000, Top-5 accuracy: 0.9944, time: 7928.396156549454
+[2023-07-21_04:29:53] Train [86] Loss: 0.3573
+==========Test result on benign test dataset==========
+[2023-07-21_04:29:59] Top-1 correct / Total: 8268/10000, Top-1 accuracy: 0.8268, Top-5 correct / Total: 9897/10000, Top-5 accuracy: 0.9897 time: 8014.896100759506
+==========Test result on poisoned test dataset==========
+[2023-07-21_04:30:05] Top-1 correct / Total: 9390/10000, Top-1 accuracy: 0.939, Top-5 correct / Total: 9983/10000, Top-5 accuracy: 0.9983, time: 8020.778454780579
+[2023-07-21_04:31:26] Train [87] Loss: 0.3648
+==========Test result on benign test dataset==========
+[2023-07-21_04:31:32] Top-1 correct / Total: 8356/10000, Top-1 accuracy: 0.8356, Top-5 correct / Total: 9897/10000, Top-5 accuracy: 0.9897 time: 8107.581098079681
+==========Test result on poisoned test dataset==========
+[2023-07-21_04:31:37] Top-1 correct / Total: 10000/10000, Top-1 accuracy: 1.0, Top-5 correct / Total: 10000/10000, Top-5 accuracy: 1.0, time: 8113.376471042633
+[2023-07-21_04:32:58] Train [88] Loss: 0.3634
+==========Test result on benign test dataset==========
+[2023-07-21_04:33:04] Top-1 correct / Total: 8249/10000, Top-1 accuracy: 0.8249, Top-5 correct / Total: 9925/10000, Top-5 accuracy: 0.9925 time: 8199.927180290222
+==========Test result on poisoned test dataset==========
+[2023-07-21_04:33:10] Top-1 correct / Total: 9986/10000, Top-1 accuracy: 0.9986, Top-5 correct / Total: 10000/10000, Top-5 accuracy: 1.0, time: 8205.739704370499
+[2023-07-21_04:34:31] Train [89] Loss: 0.3604
+==========Test result on benign test dataset==========
+[2023-07-21_04:34:37] Top-1 correct / Total: 8303/10000, Top-1 accuracy: 0.8303, Top-5 correct / Total: 9899/10000, Top-5 accuracy: 0.9899 time: 8292.390217542648
+==========Test result on poisoned test dataset==========
+[2023-07-21_04:34:42] Top-1 correct / Total: 9947/10000, Top-1 accuracy: 0.9947, Top-5 correct / Total: 10000/10000, Top-5 accuracy: 1.0, time: 8298.139531612396
+[2023-07-21_04:36:03] Train [90] Loss: 0.3594
+==========Test result on benign test dataset==========
+[2023-07-21_04:36:09] Top-1 correct / Total: 8200/10000, Top-1 accuracy: 0.82, Top-5 correct / Total: 9919/10000, Top-5 accuracy: 0.9919 time: 8385.049185752869
+==========Test result on poisoned test dataset==========
+[2023-07-21_04:36:15] Top-1 correct / Total: 9999/10000, Top-1 accuracy: 0.9999, Top-5 correct / Total: 10000/10000, Top-5 accuracy: 1.0, time: 8390.81958270073
+[2023-07-21_04:37:36] Train [91] Loss: 0.3528
+==========Test result on benign test dataset==========
+[2023-07-21_04:37:41] Top-1 correct / Total: 8306/10000, Top-1 accuracy: 0.8306, Top-5 correct / Total: 9924/10000, Top-5 accuracy: 0.9924 time: 8477.377334833145
+==========Test result on poisoned test dataset==========
+[2023-07-21_04:37:47] Top-1 correct / Total: 9979/10000, Top-1 accuracy: 0.9979, Top-5 correct / Total: 9999/10000, Top-5 accuracy: 0.9999, time: 8483.149866580963
+[2023-07-21_04:39:08] Train [92] Loss: 0.3618
+==========Test result on benign test dataset==========
+[2023-07-21_04:39:14] Top-1 correct / Total: 8341/10000, Top-1 accuracy: 0.8341, Top-5 correct / Total: 9935/10000, Top-5 accuracy: 0.9935 time: 8570.040317058563
+==========Test result on poisoned test dataset==========
+[2023-07-21_04:39:20] Top-1 correct / Total: 10000/10000, Top-1 accuracy: 1.0, Top-5 correct / Total: 10000/10000, Top-5 accuracy: 1.0, time: 8576.05242562294
+[2023-07-21_04:40:41] Train [93] Loss: 0.3605
+==========Test result on benign test dataset==========
+[2023-07-21_04:40:47] Top-1 correct / Total: 8342/10000, Top-1 accuracy: 0.8342, Top-5 correct / Total: 9938/10000, Top-5 accuracy: 0.9938 time: 8663.360023260117
+==========Test result on poisoned test dataset==========
+[2023-07-21_04:40:53] Top-1 correct / Total: 9994/10000, Top-1 accuracy: 0.9994, Top-5 correct / Total: 10000/10000, Top-5 accuracy: 1.0, time: 8669.123378038406
+[2023-07-21_04:42:14] Train [94] Loss: 0.3625
+==========Test result on benign test dataset==========
+[2023-07-21_04:42:20] Top-1 correct / Total: 7812/10000, Top-1 accuracy: 0.7812, Top-5 correct / Total: 9890/10000, Top-5 accuracy: 0.989 time: 8755.785989999771
+==========Test result on poisoned test dataset==========
+[2023-07-21_04:42:26] Top-1 correct / Total: 9434/10000, Top-1 accuracy: 0.9434, Top-5 correct / Total: 9994/10000, Top-5 accuracy: 0.9994, time: 8761.574334859848
+[2023-07-21_04:43:46] Train [95] Loss: 0.3680
+==========Test result on benign test dataset==========
+[2023-07-21_04:43:52] Top-1 correct / Total: 8225/10000, Top-1 accuracy: 0.8225, Top-5 correct / Total: 9933/10000, Top-5 accuracy: 0.9933 time: 8847.993746042252
+==========Test result on poisoned test dataset==========
+[2023-07-21_04:43:58] Top-1 correct / Total: 9562/10000, Top-1 accuracy: 0.9562, Top-5 correct / Total: 9978/10000, Top-5 accuracy: 0.9978, time: 8853.768141746521
+[2023-07-21_04:45:20] Train [96] Loss: 0.4016
+==========Test result on benign test dataset==========
+[2023-07-21_04:45:27] Top-1 correct / Total: 8424/10000, Top-1 accuracy: 0.8424, Top-5 correct / Total: 9914/10000, Top-5 accuracy: 0.9914 time: 8942.458235025406
+==========Test result on poisoned test dataset==========
+[2023-07-21_04:45:33] Top-1 correct / Total: 9511/10000, Top-1 accuracy: 0.9511, Top-5 correct / Total: 9902/10000, Top-5 accuracy: 0.9902, time: 8948.863000631332
+[2023-07-21_04:46:56] Train [97] Loss: 0.3577
+==========Test result on benign test dataset==========
+[2023-07-21_04:47:02] Top-1 correct / Total: 8478/10000, Top-1 accuracy: 0.8478, Top-5 correct / Total: 9917/10000, Top-5 accuracy: 0.9917 time: 9037.472430229187
+==========Test result on poisoned test dataset==========
+[2023-07-21_04:47:07] Top-1 correct / Total: 10000/10000, Top-1 accuracy: 1.0, Top-5 correct / Total: 10000/10000, Top-5 accuracy: 1.0, time: 9043.265399694443
+[2023-07-21_04:48:28] Train [98] Loss: 0.3498
+==========Test result on benign test dataset==========
+[2023-07-21_04:48:34] Top-1 correct / Total: 8393/10000, Top-1 accuracy: 0.8393, Top-5 correct / Total: 9925/10000, Top-5 accuracy: 0.9925 time: 9129.697350740433
+==========Test result on poisoned test dataset==========
+[2023-07-21_04:48:40] Top-1 correct / Total: 9834/10000, Top-1 accuracy: 0.9834, Top-5 correct / Total: 9995/10000, Top-5 accuracy: 0.9995, time: 9135.470746994019
+[2023-07-21_04:50:00] Train [99] Loss: 0.3476
+==========Test result on benign test dataset==========
+[2023-07-21_04:50:06] Top-1 correct / Total: 8435/10000, Top-1 accuracy: 0.8435, Top-5 correct / Total: 9905/10000, Top-5 accuracy: 0.9905 time: 9221.868852615356
+==========Test result on poisoned test dataset==========
+[2023-07-21_04:50:12] Top-1 correct / Total: 9989/10000, Top-1 accuracy: 0.9989, Top-5 correct / Total: 10000/10000, Top-5 accuracy: 1.0, time: 9227.647811412811
